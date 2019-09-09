@@ -1,0 +1,98 @@
+.bg-black {
+    background-image: url(../gambarwebsite.jpg);
+}
+form {
+    width: 500px;
+    /* margin: 50px auto; */
+}
+.search {
+    padding:8px 120px;
+    background:rgb(10, 10, 97);
+    border: 0px solid #dbdbdb;
+}
+.formlogo{
+    float: right;
+}
+.menu-primer ul {
+    background-color: #333333;
+    border-radius: 10px;
+    box-shadow:
+    0   3px 5px -1px rgba(0, 0, 0, 0.2),
+    0   6px 10px 0   rgba(0, 0, 0, 0.14),
+    0   1px 18px 0   rgba(0, 0, 0, 0.12);
+}
+.menu-primer li {
+      display: inline-block;
+}
+.menu-primer a {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 6px 10px;
+    letter-spacing: 1px;
+}
+.menu-primer a:hover {
+    background-color: #FFFFFF;
+    color: crimson;
+}
+.menu-primer .active {
+    background-color: #FFFFFF;
+    color:green;
+}
+.paling-populer {
+    height: 300px;
+    background-color: rgb(80, 18, 138);
+}
+.paling-populer2 {
+    float: right;
+    margin: 20px;       
+}
+.terbaru {
+    height: 300px;
+    background-color: rgb(80, 18, 138);  
+}
+.box2-left{
+    width: 5%;
+}
+.box2-right {
+    width: 33.3%;
+    float: left;
+    color: white;
+}
+.copyright p {
+    font-size: 14px;
+    color:grey;
+}
+.jumbotron-h1 {
+    width:33.3%;
+    background-color: rgb(76, 29, 121);
+    border: solid   rgb(5, 0, 10);
+    border-radius: 8px;  
+}
+.jumbotron-h2 {
+    background-color: rgb(55, 14, 93);
+    border: solid   rgb(5, 0, 10);
+    border-radius: 8px;   
+}
+.button {
+    position: relative;
+    padding: 6px 15px;
+    left:-8px;
+    border: 2px blueviolet;
+    background-color:rgb(101, 101, 255);
+    color: white;
+}
+.button:hover {
+    background-color: #fafafa;
+    color: #055194;
+}
+a {
+    text-decoration: none;
+    color:  yellow;
+}
+
+.container {
+background-color: rgb(25, 11, 37);
+}    
+
+
+
