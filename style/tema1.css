@@ -10,7 +10,7 @@ form {
     background:rgb(10, 10, 97);
     border: 0px solid #dbdbdb;
 }
-.formlogo{
+.formlogo {
     float: right;
 }
 .menu-primer ul {
@@ -18,7 +18,7 @@ form {
     border-radius: 10px;
     box-shadow:
     0   3px 5px -1px rgba(0, 0, 0, 0.2),
-    0   6px 10px 0   rgba(0, 0, 0, 0.14),
+    0   6px  10px 0   rgba(0, 0, 0, 0.14),
     0   1px 18px 0   rgba(0, 0, 0, 0.12);
 }
 .menu-primer li {
@@ -44,13 +44,13 @@ form {
 }
 .paling-populer2 {
     float: right;
-    margin: 20px;       
+    margin: 3%       
 }
 .terbaru {
     height: 300px;
     background-color: rgb(80, 18, 138);  
 }
-.box2-left{
+.box2-left {
     width: 5%;
 }
 .box2-right {
@@ -71,7 +71,8 @@ form {
 .jumbotron-h2 {
     background-color: rgb(55, 14, 93);
     border: solid   rgb(5, 0, 10);
-    border-radius: 8px;   
+    border-radius: 1px;   
+    margin: 3%
 }
 .button {
     position: relative;
@@ -89,10 +90,16 @@ a {
     text-decoration: none;
     color:  yellow;
 }
-
 .container {
 background-color: rgb(25, 11, 37);
-}    
+} 
+.kategori li {
+    display: inline;
+}
 
-
-
+.kategori a {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 6px 10px;
+    letter-spacing: 1px;
+}
